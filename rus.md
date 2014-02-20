@@ -48,11 +48,18 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     position: relative;
+    padding: 0 0 0 10px;
     }
+    .persons .person:first-child{
+      padding: 0 10px 0 0;
+      }
   .persons .person img{
+    position: absolute;
+    left: 0;
+    bottom: 56px;
     display: inline-block;
     vertical-align: bottom;
-    margin: 0 2rem 0 0;
+    margin: 0;
     width: 80px;
     height: 80px;
     }
@@ -66,13 +73,17 @@
     font-style: italic;
     }
   .persons .person .say-us{
-    display: inline-block;
+    display: block;
     vertical-align: bottom;
     font-size: 12px;
     font-style: italic;
     position: relative;
-    margin: 0;
+    margin: 0 0 0 100px;
     padding: 1rem;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    
     background-color: #0BA5B7;
     color: #fff;
     }
