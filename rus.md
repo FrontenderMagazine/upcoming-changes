@@ -81,7 +81,8 @@
   .persons .person .say-us{
     display: block;
     vertical-align: bottom;
-    font-size: 12px;
+    font-size: 11px;
+    line-height: 13px;
     font-style: italic;
     position: relative;
     margin: 40px 0 10px 100px;
