@@ -30,8 +30,17 @@
 <style>
   .persons{
     position: relative;
-    overflow: hidden;
     }
+    .persons:after{
+      display: block;
+      content:".";
+      overflow: hidden;
+      text-indent: -9999px;
+      clear: both;
+      height: 0;
+      font-size: 0;
+      line-height: 0;
+      }
   .persons .person{
     float: left;
     width: 50%;
@@ -39,7 +48,6 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     position: relative;
-    overflow: hidden;
     }
   .persons .person img{
     display: block;
@@ -62,7 +70,7 @@
     font-style: italic;
     left: 100px;
     right: 20px;
-    top: 0;
+    bottom: 56px;
     margin: 0;
     padding: .5rem;
     background-color: #0BA5B7;
