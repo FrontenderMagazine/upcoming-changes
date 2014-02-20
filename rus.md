@@ -96,11 +96,11 @@
       height: 0;
       width: 0;
       position: absolute;
-      bottom: 10px
+      bottom: 10px;
       right: 100%;
       text-indent: -9999px;
       overflow: hidden;
-      border-color: transparent #f00 transparent transparent;
+      border-color: transparent #0BA5B7 transparent transparent;
       border-width: 10px;
       border-style: solid;
       }
