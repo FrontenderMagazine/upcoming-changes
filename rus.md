@@ -103,7 +103,7 @@
       text-indent: -9999px;
       overflow: hidden;
       border-color: transparent #0BA5B7 transparent transparent;
-      border-width: 0 10px 5px 0;
+      border-width: 0 10px 10px 0;
       border-style: solid;
       }
 </style>
