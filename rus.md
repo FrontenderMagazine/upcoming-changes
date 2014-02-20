@@ -50,7 +50,8 @@
     position: relative;
     }
   .persons .person img{
-    display: block;
+    display: inline-block;
+    vertical-align: bottom;
     margin: 0 2rem 0 0;
     width: 80px;
     height: 80px;
@@ -65,33 +66,48 @@
     font-style: italic;
     }
   .persons .person .say-us{
-    position: absolute;
+    display: inline-block;
+    vertical-align: bottom;
     font-size: 12px;
     font-style: italic;
-    left: 100px;
-    right: 20px;
-    bottom: 56px;
+    position: relative;
     margin: 0;
-    padding: .5rem;
+    padding: 1rem;
     background-color: #0BA5B7;
     color: #fff;
     }
+    .persons .person .say-us:after{
+      content:".";
+      display: block;
+      display: block;
+      height: 0;
+      width: 0;
+      position: absolute;
+      top: 100%;
+      left: .4rem;
+      text-indent: -9999px;
+      overflow: hidden;
+      border-color: #0ba5b7 transparent transparent #0ba5b7;
+      border-width: 4px;
+      border-width: .2rem;
+      border-style: solid;v
+      }
 </style>
 
 <section class="persons">
 
   <article class="person">
     <img src="person/cosmiksoul.png" alt="Аватар">
+    <p class="say-us">Сложно выделить какую-то одну конкретную причину, по которой я учавствую в проект. Мне хотелось сделать что-то полезное для проекта, который интересен моим коллегам, завоевать их уважение, применить свои профессиональные знания в редакторском деле, отточить свои навыки копирайтера.</p>
     <p class="name">Константин Гупалов</p>
     <p class="role">корректор и редактор</p>
-    <p class="say-us">Сложно выделить какую-то одну конкретную причину, по которой я учавствую в проект. Мне хотелось сделать что-то полезное для проекта, который интересен моим коллегам, завоевать их уважение, применить свои профессиональные знания в редакторском деле, отточить свои навыки копирайтера.</p>
   </article>
 
   <article class="person">
-    <img src="person/cosmiksoul.png" alt="Аватар">
+    <img src="person/mustangostang.png" alt="Аватар">
+    <p class="say-us">Решил помочь журналу, потому что на русском языке крайне мало хороших теоретических и практичесикх материалов по фронтэнд-разработке, и очень важно делать их доступными для всех.</p>
     <p class="name">Влад Андерсен</p>
     <p class="role">переводчик</p>
-    <p class="say-us">Решил помочь журналу, потому что на русском языке крайне мало хороших теоретических и практичесикх материалов по фронтэнд-разработке, и очень важно делать их доступными для всех.</p>
   </article>
 
 </section>
