@@ -43,7 +43,7 @@
     }
   .persons .person img{
     display: block;
-    margin: 0 2rem 2rem 0;
+    margin: 0 2rem 0 0;
     width: 80px;
     height: 80px;
     }
@@ -58,10 +58,15 @@
     }
   .persons .person .say-us{
     position: absolute;
+    font-size: 12px;
+    font-style: italic;
     left: 100px;
     right: 20px;
     top: 0;
     margin: 0;
+    padding: .5rem;
+    background-color: #0BA5B7;
+    color: #fff;
     }
 </style>
 
