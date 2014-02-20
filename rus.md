@@ -27,15 +27,48 @@
 3. Штатные переводчики - [Влад Андерсен](https://github.com/mustangostang), [Владимир Старков](https://github.com/matmuchrapna), [Наталья Луканюк](https://github.com/NatalieF), [Сергей Смольников](https://github.com/smolnikov);
 4. Независимые переводчики - [Александр Бузник](https://github.com/beshur), [Елена Джетпыспаева](https://github.com/mursya), [Александр Куров](https://github.com/itsanti), [Антон Хлыновский](https://github.com/subzey), [Игорь Дерябин](https://github.com/rodweb), [Антон Шувалов](https://github.com/shuvalov-anton), [Glen Swift](https://github.com/glenswift).
 
-### Константин Гупалов, корректор и редактор
+<style>
+  .persons .person{
+    position: relative;
+    overflow: hidden;
+    }
+  .persons .person img{
+    display: block;
+    margin: 0 2rem 2rem 0;
+    width: 80px;
+    height: 80px;
+    }
+  .persons .person .name{
+    font-size: 24px;
+    }
+  .persons .person .role{
+    font-size: 12px;
+    font-style: italic;
+    }
+  .persons .person .say-us{
+    position: absolute;
+    left: 100px;
+    top: 0;
+    }
+</style>
 
-*Сложно выделить какую-то одну конкретную причину, по которой я учавствую в проект. Мне хотелось сделать что-то полезное для проекта, который интересен моим коллегам, завоевать их уважение, применить свои профессиональные знания в редакторском деле, отточить свои навыки копирайтера.*
+<section class="persons">
 
+  <article class="person">
+    <img src="person/cosmiksoul.png" alt="Аватар">
+    <p class="name">Константин Гупалов</p>
+    <p class="role">корректор и редактор</p>
+    <p class="say-us">Сложно выделить какую-то одну конкретную причину, по которой я учавствую в проект. Мне хотелось сделать что-то полезное для проекта, который интересен моим коллегам, завоевать их уважение, применить свои профессиональные знания в редакторском деле, отточить свои навыки копирайтера.</p>
+  </article>
 
-### Влад Андерсен, переводчик
+  <article class="person">
+    <img src="person/cosmiksoul.png" alt="Аватар">
+    <p class="name">Влад Андерсен</p>
+    <p class="role">переводчик</p>
+    <p class="say-us">Решил помочь журналу, потому что на русском языке крайне мало хороших теоретических и практичесикх материалов по фронтэнд-разработке, и очень важно делать их доступными для всех.</p>
+  </article>
 
-*Решил помочь журналу, потому что на русском языке крайне мало хороших теоретических и практичесикх материалов по фронтэнд-разработке, и очень важно делать их доступными для всех.*
-
+</section>
 
 ### Наталя Луканюк, переводчик
 
