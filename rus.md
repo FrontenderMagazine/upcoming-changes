@@ -30,6 +30,8 @@
 <style>
   .persons{
     position: relative;
+    margin: 0 20px 0 0;
+    clear: both;
     }
     .persons:after{
       display: block;
@@ -121,6 +123,9 @@
     <p class="name">Влад Андерсен</p>
     <p class="role">Переводчик</p>
   </article>
+
+</section>
+<section class="persons">
 
   <article class="person">
     <img src="person/natalief.png" alt="Аватар">
