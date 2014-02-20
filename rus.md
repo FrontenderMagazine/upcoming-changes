@@ -84,7 +84,7 @@
     font-size: 12px;
     font-style: italic;
     position: relative;
-    margin: 20px 0 10px 100px;
+    margin: 40px 0 10px 100px;
     padding: 1rem;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
