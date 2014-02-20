@@ -54,9 +54,12 @@
     .persons .person:first-child{
       padding: 0 10px 0 0;
       }
+      .persons .person:first-child img{
+        left: 0;
+        }
   .persons .person img{
     position: absolute;
-    left: 0;
+    left: 10px;
     bottom: 56px;
     display: inline-block;
     vertical-align: bottom;
@@ -79,7 +82,7 @@
     font-size: 12px;
     font-style: italic;
     position: relative;
-    margin: 0 0 0 100px;
+    margin: 0 0 10px 100px;
     padding: 1rem;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -90,18 +93,16 @@
     .persons .person .say-us:after{
       content:".";
       display: block;
-      display: block;
       height: 0;
       width: 0;
       position: absolute;
-      top: 100%;
-      left: .4rem;
+      bottom: 10px
+      right: 100%;
       text-indent: -9999px;
       overflow: hidden;
-      border-color: #0ba5b7 transparent transparent #0ba5b7;
-      border-width: 4px;
-      border-width: .2rem;
-      border-style: solid;v
+      border-color: transparent #0ba5b7 transparent transparent;
+      border-width: 10px;
+      border-style: solid;
       }
 </style>
 
