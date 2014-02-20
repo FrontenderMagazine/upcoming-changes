@@ -42,7 +42,8 @@
       line-height: 0;
       }
   .persons .person{
-    float: left;
+    display: inline-block;
+    vertical-align: bottom;
     width: 50%;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -83,7 +84,6 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-    
     background-color: #0BA5B7;
     color: #fff;
     }
