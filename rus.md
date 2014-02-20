@@ -298,7 +298,7 @@
 
 Для этого мы придумали опрос, который позволит выяснить сколько вы можете и хотите себе позволить заплатить за подписку в месяц. 
 
-<div id="surveyMonkeyInfo"><div><script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=azPW_2fct36VgGVPMGwR2sQA_3d_3d"> </script></div>Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.</div>
+<div id="surveyMonkeyInfo"><p><script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=azPW_2fct36VgGVPMGwR2sQA_3d_3d"> </script></p>Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.</div>
 
 Изначально мы будем продавать подписку только на месяц, так как пока не ясно, настанет ли для журнала апрель. Но, если это все же случится, то появятся подписки на квартал, пол года и год и соответствующие скидки.
 
