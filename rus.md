@@ -92,6 +92,13 @@
     background-color: #0BA5B7;
     color: #fff;
     }
+    .persons .person .say-us a{
+      color: #FFF;
+      text-decoration: underline;
+      }
+      .persons .person .say-us a:hover{
+        text-decoration: none;
+        }
     .persons .person .say-us:after{
       content:".";
       display: block;
