@@ -28,7 +28,16 @@
 4. Независимые переводчики - [Александр Бузник](https://github.com/beshur), [Елена Джетпыспаева](https://github.com/mursya), [Александр Куров](https://github.com/itsanti), [Антон Хлыновский](https://github.com/subzey), [Игорь Дерябин](https://github.com/rodweb), [Антон Шувалов](https://github.com/shuvalov-anton), [Glen Swift](https://github.com/glenswift).
 
 <style>
+  .persons{
+    position: relative;
+    overflow: hidden;
+    }
   .persons .person{
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
     position: relative;
     overflow: hidden;
     }
@@ -39,16 +48,20 @@
     height: 80px;
     }
   .persons .person .name{
-    font-size: 24px;
+    font-size: 18px;
+    margin: 0;
     }
   .persons .person .role{
     font-size: 12px;
+    margin: 0;
     font-style: italic;
     }
   .persons .person .say-us{
     position: absolute;
     left: 100px;
+    right: 20px;
     top: 0;
+    margin: 0;
     }
 </style>
 
