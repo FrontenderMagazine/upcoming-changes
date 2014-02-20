@@ -84,7 +84,7 @@
     font-size: 12px;
     font-style: italic;
     position: relative;
-    margin: 0 0 10px 100px;
+    margin: 20px 0 10px 100px;
     padding: 1rem;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -103,7 +103,7 @@
       text-indent: -9999px;
       overflow: hidden;
       border-color: transparent #0BA5B7 transparent transparent;
-      border-width: 5px 10px 5px 0;
+      border-width: 0 10px 5px 0;
       border-style: solid;
       }
 </style>
