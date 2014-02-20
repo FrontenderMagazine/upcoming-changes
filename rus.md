@@ -100,7 +100,7 @@
       right: 100%;
       text-indent: -9999px;
       overflow: hidden;
-      border-color: transparent #0ba5b7 transparent transparent;
+      border-color: transparent #f00 transparent transparent;
       border-width: 10px;
       border-style: solid;
       }
