@@ -82,7 +82,7 @@
     display: block;
     vertical-align: bottom;
     font-size: 11px;
-    line-height: 13px;
+    line-height: 16px;
     font-style: italic;
     position: relative;
     margin: 40px 0 10px 100px;
