@@ -106,6 +106,16 @@
       border-width: 0 10px 10px 0;
       border-style: solid;
       }
+
+@media all and (max-width: 760px) {
+  .persons .person{
+    width: 100%;
+    padding: 0;
+    }
+    .persons .person img{
+      left: 0;
+      }
+  }
 </style>
 
 <section class="persons">
